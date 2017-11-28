@@ -32,7 +32,7 @@ void simpleSieve(unsigned long long int limit, vector<unsigned long long int> &p
         if (mark[p] == true)
         {
             prime.push_back(p);
-            cout << p << "  ";
+            //cout << p << "  ";
         }
     }
 }
@@ -87,7 +87,7 @@ void segmentedSieve(unsigned long long int n)
         // Numbers which are not marked as false are prime
         for (unsigned long long int i = low; i<high; i++)
             if (mark[i - low] == true)
-                cout << i << "  ";
+                //cout << i << "  ";
 
         // Update low and high for next segment
         low  = low + limit;
@@ -101,7 +101,7 @@ int main()
 {
     unsigned long long int n;
     cin >> n;
-    cout << "Primes smaller than " << n << ":n";
+    //cout << "Primes smaller than " << n << ":n";
     segmentedSieve(n);
     return 0;
 }

@@ -53,6 +53,6 @@ bool isPrime(unsigned long long int n, unsigned long long int k)
 int main()
 {
     for (unsigned long long int i=0; i<1000; i++)
-        if (isPrime(i, 10)) cout << i << endl;
+        // if (isPrime(i, 10)) cout << i << endl;
     return 0;
 }

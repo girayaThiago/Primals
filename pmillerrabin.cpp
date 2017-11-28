@@ -87,7 +87,7 @@ int main()
 
     for (unsigned long long int n = 1; n < 10000; n++)
        if (isPrime(n, k))
-          cout << n << " ";
+          // cout << n << " ";
 
     return 0;
 }

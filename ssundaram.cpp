@@ -27,13 +27,13 @@ void SieveOfSundaram(unsigned long long int n)
 
     // Since 2 is a prime number
     if (n > 2)
-        cout << 2 << " ";
+        // cout << 2 << " ";
 
     // Prunsigned long long int other primes. Remaining primes are of the form
     // 2*i + 1 such that marked[i] is false.
     for (unsigned long long int i=1; i<=nNew; i++)
         if (marked[i] == false)
-            cout << 2*i + 1 << " ";
+            // cout << 2*i + 1 << " ";
 }
 
 // Driver program to test above

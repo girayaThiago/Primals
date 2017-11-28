@@ -5,8 +5,8 @@ using namespace std;
 void SieveOfAtkin(unsigned long long int limit)
 {
     // 2 and 3 are known to be prime
-    if (limit > 2)  cout << 2 << " ";
-    if (limit > 3)  cout << 3 << " ";
+    // if (limit > 2)  cout << 2 << " ";
+    // if (limit > 3)  cout << 3 << " ";
 
     // Initialise the sieve array with false values
     bool sieve[limit];
@@ -51,7 +51,7 @@ void SieveOfAtkin(unsigned long long int limit)
     // Prunsigned long long int primes using sieve[]
    for (unsigned long long int a = 5; a < limit; a++){
         if (sieve[a]){
-           cout << a << " ";
+           // cout << a << " ";
        }
    }
 }
