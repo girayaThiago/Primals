@@ -59,7 +59,7 @@ void SieveOfAtkin(unsigned long long int limit)
 //Driver program
 int main(void)
 {
-    unsigned long long int limit = 1000;
+    unsigned long long int limit = 100;
     SieveOfAtkin(limit);
     return 0;
 }
