@@ -39,7 +39,8 @@ void SieveOfSundaram(unsigned long long int n)
 // Driver program to test above
 int main(void)
 {
-    unsigned long long int n = 100;
+    unsigned long long int n;
+    cin >> n;
     SieveOfSundaram(n);
     return 0;
 }

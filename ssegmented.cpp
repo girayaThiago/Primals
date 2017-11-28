@@ -99,7 +99,8 @@ void segmentedSieve(unsigned long long int n)
 // Driver program to test above function
 int main()
 {
-    unsigned long long int n = 100;
+    unsigned long long int n;
+    cin >> n;
     cout << "Primes smaller than " << n << ":n";
     segmentedSieve(n);
     return 0;
